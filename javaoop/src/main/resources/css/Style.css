@@ -1,0 +1,10 @@
+.FirstButton{
+    -fx-background-color: rgb(250,250,250);
+    -fx-text-fill:rgb(0,0,0);
+    -fx-font-family: 'Adobe 黑体 Std R';
+}
+/*伪类样式*/
+.button:hover{
+    -fx-background-color: rgb(253,73,51);
+    -fx-text-fill: rgb(250,250,250);
+}

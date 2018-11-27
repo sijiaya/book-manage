@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+<?import com.soft1841.oop.week2.FirstButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import com.soft1841.oop.week1.MyTextFiled?>
+<?import com.soft1841.oop.week2.OtherLabel?>
+<?import com.soft1841.oop.week2.PhotoLabel?>
+<?import com.soft1841.oop.week2.MyLabel?>
+<?import com.soft1841.oop.week2.NewLabel?>
+<?import javafx.scene.shape.Line?>
+<?import com.soft1841.oop.week2.MaxLabel?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.oop.week2.WeiBoController">
+
+    <HBox AnchorPane.topAnchor="10" AnchorPane.leftAnchor="180" spacing="30">
+        <ImageView>
+            <Image url="/img/w1.PNG"/>
+        </ImageView>
+        <!--搜索框-->
+    <MyTextFiled text="大家正在搜：DG道歉没有发在海外账号" maxHeight="40" />
+    </HBox>
+    <ImageView AnchorPane.topAnchor="20" AnchorPane.leftAnchor="650">
+        <Image url="/img/glass.png"/>
+    </ImageView>
+
+    <HBox AnchorPane.leftAnchor="1240" AnchorPane.topAnchor="10" spacing="65">
+        <OtherLabel text="首页"/>
+        <OtherLabel text="视频"/>
+        <OtherLabel text="发现"/>
+        <OtherLabel text="游戏"/>
+        <OtherLabel text="注册"/>
+        <OtherLabel text="登录"/>
+    </HBox>
+
+    <VBox AnchorPane.leftAnchor="600" AnchorPane.topAnchor="580" spacing="275">
+        <ImageView >
+            <Image url="/img/u0.png"/>
+        </ImageView>
+        <ImageView >
+            <Image url="/img/u1.png"/>
+        </ImageView>
+    </VBox>
+
+    <VBox AnchorPane.topAnchor="580" AnchorPane.leftAnchor="640" spacing="280">
+        <MyLabel text="张杰"/>
+        <MyLabel text="许晴"/>
+    </VBox>
+
+    <VBox AnchorPane.topAnchor="580" AnchorPane.leftAnchor="700" spacing="280">
+        <MyLabel text="今天 11:33"/>
+        <MyLabel text="今天 17:03"/>
+    </VBox>
+
+
+
+    <HBox AnchorPane.leftAnchor="990" AnchorPane.topAnchor="580" spacing="45">
+        <MyLabel text="998095"/>
+        <MyLabel text="27800"/>
+        <MyLabel text="51322"/>
+    </HBox>
+    <HBox AnchorPane.leftAnchor="990" AnchorPane.topAnchor="880" spacing="60">
+        <MyLabel text="6089"/>
+        <MyLabel text="2545"/>
+        <MyLabel text="39511"/>
+    </HBox>
+
+    <MaxLabel text="微博新鲜事" AnchorPane.topAnchor="490" AnchorPane.leftAnchor="1300"/>
+    <PhotoLabel text="纪录片初稿已阅......" AnchorPane.topAnchor="530" AnchorPane.leftAnchor="600"/>
+    <PhotoLabel text=" 小雪❄暖晴 ​​​​" AnchorPane.topAnchor="840" AnchorPane.leftAnchor="720"/>
+    <NewLabel text="#张杰未LIVE巡回演唱会#" AnchorPane.topAnchor="530" AnchorPane.leftAnchor="770"/>
+    <NewLabel text="#世界是暖的#" AnchorPane.topAnchor="840" AnchorPane.leftAnchor="600"/>
+
+    <HBox AnchorPane.leftAnchor="380" AnchorPane.topAnchor="70" spacing="30">
+         <ImageView >
+            <Image url="/img/1.PNG"/>
+        </ImageView>
+        <ImageView >
+            <Image url="/img/3.PNG"/>
+        </ImageView>
+    </HBox>
+
+    <VBox AnchorPane.leftAnchor ="380" AnchorPane.topAnchor="480" spacing="50">
+        <ImageView >
+            <Image url="/img/2.PNG"/>
+        </ImageView>
+        <ImageView >
+            <Image url="/img/8.jpg"/>
+        </ImageView>
+    </VBox>
+
+    <VBox AnchorPane.topAnchor="550" AnchorPane.leftAnchor="1250" spacing="85">
+        <PhotoLabel text="值得一看的申论备考指南"/>
+        <PhotoLabel text="雕迟但到"/>
+        <PhotoLabel text="好看不火的VLOG"/>
+        <PhotoLabel text="沙雕玩家搞笑趣闻"/>
+    </VBox>
+
+    <VBox AnchorPane.topAnchor="600" AnchorPane.leftAnchor="1250" spacing="90">
+        <MyLabel text="今天 20:27"/>
+        <MyLabel text="今天 12:27"/>
+        <MyLabel text="今天 11:53"/>
+        <MyLabel text="今天 10:27"/>
+    </VBox>
+
+    <VBox AnchorPane.topAnchor="540" AnchorPane.leftAnchor="1500" spacing="20">
+        <ImageView>
+            <Image url="/img/4.jpg"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/5.jpg"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/6.jpg"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/7.jpg"/>
+        </ImageView>
+    </VBox>
+
+    <HBox AnchorPane.topAnchor="583" AnchorPane.leftAnchor="970" spacing="80">
+        <ImageView>
+            <Image url="/img/forwarding.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/information.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/thumb.png"/>
+        </ImageView>
+    </HBox>
+
+    <HBox AnchorPane.topAnchor="880" AnchorPane.leftAnchor="970" spacing="80">
+        <ImageView>
+            <Image url="/img/forwarding.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/information.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/thumb.png"/>
+        </ImageView>
+    </HBox>
+
+
+    <HBox AnchorPane.topAnchor="15" AnchorPane.leftAnchor="1220" spacing="80">
+        <ImageView>
+            <Image url="/img/house.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/video.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/found.png"/>
+        </ImageView>
+        <ImageView>
+            <Image url="/img/game.png"/>
+        </ImageView>
+    </HBox>
+
+
+    <VBox AnchorPane.leftAnchor="210" AnchorPane.topAnchor="80" spacing="20">
+        <FirstButton text="热门"/>
+        <FirstButton text="头条"/>
+        <FirstButton text="视频"/>
+        <FirstButton text="新鲜事"/>
+        <FirstButton text="榜单"/>
+        <FirstButton text="搞笑"/>
+        <FirstButton text="社会"/>
+        <FirstButton text="时尚"/>
+        <FirstButton text="电影"/>
+        <FirstButton text="美女"/>
+        <FirstButton text="体育"/>
+        <FirstButton text="动漫"/>
+    </VBox>
+
+    <!--添加直线-->
+    <Line startX="380" startY="620" endX="1250" endY="620.0" stroke="rgb(219,219,219)"/>
+    <Line startX="380" startY="920" endX="1250" endY="920.0" stroke="rgb(219,219,219)"/>
+    <Line startX="0" startY="0" endX="1930" endY="0"  strokeWidth="10" stroke="rgb(250,125,60)"/>
+</AnchorPane>
